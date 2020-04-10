@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "lerna run test --scope={icecream-server,icecream-web}",
-    "start": "lerna run start"
+    "start": "lerna run start --scope={icecream-server,icecream-web}"
   },
   "author": "",
   "license": "ISC",
