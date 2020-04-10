@@ -3,7 +3,7 @@ const express = require("express");
 const axios = require("axios");
 
 const app = express();
-const port = 3000;
+const port = 3001;
 
 const BUSINESS_SEARCH_URL = "https://api.yelp.com/v3/businesses/search";
 const BUSINESS_REVIEW_URL = (id) =>
