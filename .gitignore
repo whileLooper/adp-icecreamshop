@@ -1,0 +1,13 @@
+node_modules/
+lerna-debug.log
+npm-debug.log
+packages/*/lib
+packages/*/dist
+packages/*/.env
+packages/*/.node-persist
+.idea
+/.env
+/.dockerenv
+*.tsbuildinfo
+*.zip
+/dist/

@@ -1,0 +1,18 @@
+{
+  "name": "fusion-icecream",
+  "version": "1.0.0",
+  "description": "top 10 fusion icecream shop in alpharetta",
+  "main": "index.js",
+  "scripts": {
+    "test": "lerna run test --scope={icecream-server,icecream-web}",
+    "start": "lerna run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
